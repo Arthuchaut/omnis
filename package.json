@@ -1,0 +1,30 @@
+{
+  "name": "omnis",
+  "version": "0.1.0",
+  "description": "A monitoring manager to manage information flows",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Arthuchaut/omnis.git"
+  },
+  "author": "Arthuchaut",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Arthuchaut/omnis/issues"
+  },
+  "homepage": "https://github.com/Arthuchaut/omnis#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "express-session": "^1.15.6",
+    "mysql": "^2.16.0",
+    "pug": "^2.0.3"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.7"
+  }
+}
