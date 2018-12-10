@@ -1,9 +1,13 @@
 'use strict'
 
 const router = require('express').Router()
+const env    = require('../env.json')
 
 router.get('/', (req, res) => {
-    res.send('Hello !')
+    if (!('user' in req.session))
+        return res.redirect(env.mapping.root)
+
+    res.render('dashboard')
 })
 
 module.exports = router

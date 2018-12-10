@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css?family=Cutive+Mono');
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+
+    margin: 0;
+    padding: 0;
+
+    font-family: 'Cutive Mono', monospace;
+
+    transition: .4s;
+}
+
+html, body { height: 100%; }
+
+a {
+    text-decoration: none;
+    color: inherit;
+}

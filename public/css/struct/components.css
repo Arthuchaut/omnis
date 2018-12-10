@@ -1,0 +1,24 @@
+.button {
+    padding: 5px;
+    border-radius: 2px;
+    background: none;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.button:hover {
+    opacity: 0.8;
+}
+
+label {
+    font-weight: 600;
+}
+
+input {
+    border: none;
+    border-bottom: 1px solid #222222dd;
+    padding: 8px;
+    /* border-radius: 2px; */
+    outline: none;
+}
