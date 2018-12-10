@@ -4,14 +4,19 @@ block title
     title Omnis
 
 block content
-    .row.x-12.y-12.justify-center.items-center
-        .col.x-4.items-center
-            h1#title.text-center OMNIS
-
-            //- p.text-center Structure information
-
-            #authButtons.row
-                .col
-                    a(href="/login").button.f-3.t-6.s-3.text-center Login
-                .col
-                    a(href="/register").button.t-3.s-3.text-center Register
+    .row.x-12.y-12
+        .col.x-6.y-12
+            .row.x-12.y-12.justify-center.items-center
+                .col.x-4.items-center
+                    h1#title.text-center OMNIS
+                    
+                    p.text-center A monitoring manager for structure information
+                    
+        .col.x-6.y-12
+            .row.x-12.y-12.justify-center.items-center
+                    .col.x-4.items-center
+                        #authButtons.row
+                            .col
+                                a(href="/login").button.f-3.t-6.s-3.text-center Login
+                            .col
+                                a(href="/register").button.t-3.s-3.text-center Register

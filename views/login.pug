@@ -4,14 +4,18 @@ block title
     title Omnis
 
 block content
-    .row.x-12.y-12.justify-center.items-center
-        .col.x-4.items-center
-            form#login-form.row.spaced
-                .col.x-12
-                    label Mail
-                    input(type="email", name="mail", placeholder="Mail")
-                .col.x-12
-                    label Password
-                    input(type="password", name="password", placeholder="Password")
-                .col.x-12
-                    button.button.f-3.t-6 Login
+    .row
+        .col
+            .row.x-12.y-12.justify-center.items-center
+                .col.x-4.items-center
+                    form#login-form.row.spaced
+                        .col.x-12
+                            label Mail
+                            input(type="email", name="mail", placeholder="Mail")
+                        .col.x-12
+                            label Password
+                            input(type="password", name="password", placeholder="Password")
+                        .col.x-12
+                            button.button.f-3.t-6 Login
+        .col
+            p Hello
